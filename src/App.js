@@ -41,7 +41,7 @@ const App = () =>{
     return(
         <div>
             <div className ={classes.logoContainer}>
-                <img src='https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d77a6343106623.57e3765daad26.jpg' className={classes.alanLogo} alt="alan logo" />
+                <img src='https://hative.com/wp-content/uploads/2013/10/paper-logos/paper-knot-logo-idea-49.png' className={classes.alanLogo} alt="alan logo" />
             </div>
             <NewsCards articles = {newsArticles} activeArticle={activeArticle} />
         </div>
